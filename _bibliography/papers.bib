@@ -16,7 +16,15 @@
   url       = {https://doi.org/10.14722/ndss.2023.23074},
   pdf       = {https://arxiv.org/pdf/2105.06942},
   code      = {https://github.com/sprout-uci/VICEROY},
-  doi       = {10.14722/ndss.2023.23074}
+  doi       = {10.14722/ndss.2023.23074},
+  selected  = {true},
+  abstract  = {Data regulation laws such as GDPR and CCPA provide consumers (or data subjects) with rights to request data operations such as access, modification, or deletion of their collected data.
+               Authenticating consumers is crucial when conducting this operation, as such data can be privacy-sensitive.
+               This is straight forward for consumers with accounts, as they simply provide authenticate by logging into their account.
+               Such data regulation laws also require the same right to be provided to accountless consumers.
+               However, authenticating such consumers have been adhoc, insecure, and privacy-invasive.
+               In this work, we present VICEROY, a first-of-its-kind protocol that allows accountless consumers to authenticate themselves securely, privately, and in scale.
+               We prove the security of VICEROY via Tamarin prover and its scalability through extensive evaluation.},
 }
 
 @inproceedings{liu2022vronicle,
@@ -42,6 +50,12 @@
   pdf       = {https://dl.acm.org/doi/pdf/10.1145/3498361.3538943},
   poster    = {https://dl.acm.org/doi/pdf/10.1145/3498361.3538786},
   code      = {https://github.com/trusslab/vronicle},
+  abstract  = {Videos have always been used in security-critical applications where videos are used as evidence or the videos themselves are sensitive.
+               This was due to the fact that faking them was generally believed to be nearly impossible.
+               However, there is a increasingly concerning trend of fraudulent videos, the so-called deepfakes.
+               In this work we propose a novel system that generates a fine-grained, cryptographically verifiable provenance information of the videos without compromising performance.
+               We utilize TEEs on both the device that takes the videos and the servers that processes the video.
+               Our extensive measurements show that our proof-of-concept implementation outperforms the state-of-the-art system and is comparable with modern video hosting websites that do not provide such provenance info.}
 }
 
 @inproceedings{nakatsuka2021cacti,
@@ -61,6 +75,17 @@
   url       = {https://www.usenix.org/conference/usenixsecurity21/presentation/nakatsuka},
   pdf       = {https://www.usenix.org/system/files/sec21-nakatsuka.pdf},
   slides    = {https://www.usenix.org/system/files/sec21_slides_nakatsuka.pdf},
+  selected  = {true},
+  abstract  = {Preventing abuse of web services is becoming increasingly important, as bot activities are becoming wide spread.
+               CAPTCHAs are commonly used to thwart bot abuse, by distinguishing bots from real human users.
+               However, CAPTCHAs are well known to be frustrating for humans, as it takes time to solve.
+               Moreover, the rise of machine learning based image recognition technology as well as CAPTCHA farms decrease the effectiveness of CAPTCHAs.
+               In addition, privacy concerns related to more modern CAPTCHAs (e.g., behavior-based CAPTCHAs) is starting to attract public attention.
+               In this work, we propose a novel system that utilizes client-side TEEs to solve the aforementioned issues.
+               Our system, CACTI, allows users (bot or human) to cryptographically prove how many times they have conducted an action in a given timeframe (“rate”).
+               Based on this “rate-proof”, the server can allow the user to skip solving CAPTCHAs entirely.
+               Our measurements show that the end-to-end latency of CACTI is about 0.25 seconds and the overall bandwidth used is 98% smaller compared to conventional CAPTCHAs.
+               Additionally, the use of group signature schemes prevents servers to track users based on the proofs.}
 }
 
 @article{nakatsuka2021pdot,
@@ -102,6 +127,10 @@
   pdf       = {https://dl.acm.org/doi/pdf/10.1145/3359789.3359793},
   slides    = {https://www.acsac.org/2019/program/final/1/36.pdf},
   code      = {https://github.com/sprout-uci/PDoT},
+  selected  = {true},
+  abstract  = {DNS-over-TLS was introduced to improve user privacy, as DNS packets are currently sent over the Internet in plaintext.
+               However, DNS-over-TLS still suffers from privacy issues from malicious recursive resolvers and also usability issues.
+               PDoT is a novel recursive resolver architecture that aims to overcome both of these issues using Trusted Execution Environments (TEEs).}
 }
 
 @inproceedings{nakatsuka2018frog,
@@ -118,4 +147,7 @@
   url       = {https://doi.org/10.1109/ISCC.2018.8538468},
   doi       = {10.1109/ISCC.2018.8538468},
   pdf       = {https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8538468},
+  abstract  = {Named Data Networking (NDN) is one of the emerging future Internet architecture that aims to put content in the center of the communication.
+               Similar to the current Internet, NDN also suffers from DDoS attacks.
+               FROG aims to detect and mitigate DDoS attacks in NDN using a novel method that utilizes packet hop counts.}
 }
