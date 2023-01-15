@@ -2,96 +2,132 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Yoshimichi Nakatsuka
     - name: Languages
-      value: English, German
+      value: Japanese, English
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Doctor of Philosopy in Networked Systems
+      institution: University of California, Irvine, Irvine, California, USA
+      year: 2023
+    - title: Master of Science in Networked Systems
+      institution: University of California, Irvine, Irvine, California, USA
+      year: 2020
+    - title: Bachelor of Science in System Design Engineering
+      institution: Keio University, Yokohama, Kanagawa, Japan
+      year: 2017
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Graduate Research Assistant
+      institution: University of California, Irvine, Irvine, California, USA
+      year: 2017 - 2023
+    - title: Research Intern
+      institution: Cloudflare Research, Remote, USA
+      year: Summer 2022
+    - title: Research Intern
+      institution: Microsoft Research, Cambridge, UK
+      year: Winter, Spring 2021
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Product Security Intern
+      institution: Edwards Lifesciences, Irvine, California, USA
+      year: Summer 2019
+    - title: Software Engineer Intern
+      institution: Plaid, Inc., Tokyo, Japan
+      year: Spring, Summer 2017
 
-- title: Honors and Awards
+- title: Teaching Experience
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - title: Teaching Assistant
+      institution: University of California, Irvine, Irvine, California, USA
+      description: Computer and Network Security (CS134)
+      year: Fall 2019
+    - title: Teaching Assistant
+      institution: University of California, Irvine, Irvine, California, USA
+      description: Computer Networks (CS132)
+      year: Winter 2019
+
+- title: Refereed Conference Publications
+  type: time_table
+  contents:
+    - title: "VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests"
+      institution: Network and Distributed System Security Symposium (NDSS)
+      year: Feb 2023
+    - title: "Vronicle: A System for Producing Videos with Verifiable Provenance"
+      institution: ACM International Conference on Mobile Systems, Applications, and Services (MobiSys)
+      year: Jun 2022
+    - title: "CACTI: Captcha Avoidance via Client-side TEE Integration"
+      institution: USENIX Security Symposium
+      year: Aug 2021
+    - title: "PDoT: Private DNS-over-TLS with TEE Support"
+      institution: Annual Computer Security Applications Conference (ACSAC)
+      year: Dec 2019
+    - title: "FROG: A Packet Hop Count based DDoS Countermeasure in NDN"
+      institution: IEEE Symposium on Computers and Communications (ISCC)
+      year: Jun 2018
+
+- title: Refereed Conference Publications
+  type: time_table
+  contents:
+    - title: "PDoT: Private DNS-over-TLS with TEE Support"
+      institution: "Digital Threats: Research and Practice (DTRAP)"
+      year: 2021
+
+- title: Papers in Submission or Under Review
+  type: time_table
+  contents:
+    - title: An Empirical Study & Evaluation of Modern CAPTCHAs
+      institution: USENIX Security Symposium
+      year: 2023
+    - title: "COMIT: Retrofitting Cooperative Migration to In-Process Trusted Execution Environments"
+      institution: TBD
+      year: 2023
+    - title: "Puppy: A Publicly Verifiable Watermarking Protocol"
+      institution: ACM Conference on Computer and Communications Security (CCS)
+      year: 2023
+    - title: "Scrappy: SeCure Rate Assuring Protocol with PrivacY"
+      institution: Privacy Enhancing Technologies Symposium
+      year: 2023
+
+- title: Software
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/cloudflare/daphne">Daphne</a>
+      year: 2022
+      description: Implementation of the Distributed Aggregation Protocol (DAP) written in Rust
+    - title: <a href="https://github.com/sprout-uci/VICEROY">VICEROY</a>
+      year: 2022
+      description: Implementation of VICEROY server and client written in C and JavaScript
+    - title: <a href="https://github.com/trusslab/vronicle">Vronicle</a>
+      year: 2021
+      description: Implementation of Vronicle server and client written in C
+    - title: <a href="https://github.com/sprout-uci/PDoT">PDoT</a>
+      year: 2019
+      description: Implementation of PDoT recursive resolver and client written in C
+
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year:
+#       items: 
+#         -
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Enhancing system security and privacy with Trusted Computing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Hardware assisted truted computing have become widely available.
+        - How can we leverage this to enhance the security and privacy of systems?
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
