@@ -22,4 +22,4 @@ group :other_plugins do
     gem 'feedjira'
 end
 
-# gem 'github-pages', '~> 215', group: :jekyll_plugins
+gem 'github-pages', '~> 215', group: :jekyll_plugins
