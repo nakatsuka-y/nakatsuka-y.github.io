@@ -73,7 +73,7 @@
       institution: IEEE Symposium on Computers and Communications (ISCC)
       year: Jun 2018
 
-- title: Refereed Conference Publications
+- title: Refereed Journal Publications
   type: time_table
   contents:
     - title: "PDoT: Private DNS-over-TLS with TEE Support"
