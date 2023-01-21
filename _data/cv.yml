@@ -80,21 +80,21 @@
       institution: "Digital Threats: Research and Practice (DTRAP)"
       year: 2021
 
-- title: Papers in Submission or Under Review
-  type: time_table
-  contents:
-    - title: An Empirical Study & Evaluation of Modern CAPTCHAs
-      institution: USENIX Security Symposium
-      year: 2023
-    - title: "COMIT: Retrofitting Cooperative Migration to In-Process Trusted Execution Environments"
-      institution: TBD
-      year: 2023
-    - title: "Puppy: A Publicly Verifiable Watermarking Protocol"
-      institution: ACM Conference on Computer and Communications Security (CCS)
-      year: 2023
-    - title: "Scrappy: SeCure Rate Assuring Protocol with PrivacY"
-      institution: Privacy Enhancing Technologies Symposium
-      year: 2023
+# - title: Papers in Submission or Under Review
+#   type: time_table
+#   contents:
+#     - title: An Empirical Study & Evaluation of Modern CAPTCHAs
+#       institution: USENIX Security Symposium
+#       year: 2023
+#     - title: "COMIT: Retrofitting Cooperative Migration to In-Process Trusted Execution Environments"
+#       institution: TBD
+#       year: 2023
+#     - title: "Puppy: A Publicly Verifiable Watermarking Protocol"
+#       institution: ACM Conference on Computer and Communications Security (CCS)
+#       year: 2023
+#     - title: "Scrappy: SeCure Rate Assuring Protocol with PrivacY"
+#       institution: Privacy Enhancing Technologies Symposium
+#       year: 2023
 
 - title: Software
   type: time_table
