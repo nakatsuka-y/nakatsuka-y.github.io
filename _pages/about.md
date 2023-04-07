@@ -18,9 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 6th year Ph.D. student at the University of California, Irvine under the supervision of [Dr. Gene Tsudik](https://www.ics.uci.edu/~gts/).
-
-I received my Bachelor's degree at Keio University, Japan under the supervision of [Dr. Hiroaki Nishi](http://www.west.sd.keio.ac.jp/in-english).
+I received my Ph.D. from the University of California, Irvine under the supervision of [Prof. Dr. Gene Tsudik](https://www.ics.uci.edu/~gts/) and my Bachelor's degree from Keio University, Japan under the supervision of [Prof. Dr. Hiroaki Nishi](http://www.west.sd.keio.ac.jp/in-english).
 
 My current research interest is the intersection of Web security / privacy and Trusted Computing.
 
