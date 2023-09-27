@@ -1,6 +1,6 @@
 ---
 layout: post
-title: \"An Empirical Study \& Evaluation of Modern CAPTCHAs\" is accepted to Usenix Security 2023
+title: An Empirical Study & Evaluation of Modern CAPTCHAs is accepted to Usenix Security 2023
 date: 2023-08-06 09:00:00-0000
 inline: false
 ---
