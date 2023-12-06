@@ -46,6 +46,10 @@
   type: time_table
   contents:
     - title: Teaching Assistant
+      institution: ETH Zurich, Zurich, Switzerland
+      description: Systems Security
+      year: Fall 2023
+    - title: Teaching Assistant
       institution: University of California, Irvine, Irvine, California, USA
       description: Computer and Network Security (CS134)
       year: Fall 2019
@@ -57,6 +61,9 @@
 - title: Refereed Conference Publications
   type: time_table
   contents:
+    - title: "Scrappy: SeCure Rate Assuring Protocol with PrivacY"
+      institution: Network and Distributed System Security Symposium (NDSS)
+      year: Feb 2024
     - title: "VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests"
       institution: Network and Distributed System Security Symposium (NDSS)
       year: Feb 2023

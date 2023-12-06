@@ -1,6 +1,32 @@
 ---
 ---
 
+@inproceedings{kosei2024scrappy,
+  abbr      = {NDSS},
+  author    = {Kosei Akama and
+               Yoshimichi Nakatsuka and
+               Masaaki Sato and
+               Keisuke Uehara},
+  title     = {Scrappy: SeCure Rate Assuring Protocol with PrivacY},
+  booktitle = {31st Annual Network and Distributed System Security Symposium, {NDSS}
+               2024, San Diego, California, USA, 26 February 2024 - 1 March 2024},
+  publisher = {The Internet Society},
+  year      = {2024},
+  url       = {https://arxiv.org/abs/2312.00989},
+  pdf       = {https://arxiv.org/pdf/2312.00989.pdf},
+  code      = {https://github.com/akakou/scrappy},
+  selected  = {true},
+  abstract  = {Users accessing online services at a rate exceeding that expected by websites has become an ever-increasing problem.
+               Many websites nowadays employ ``rate-limiting'' systems to slow down such users.
+               Two widely used rate-limiting systems are CAPTCHAs and SMS authentication, but they are becoming less effective and some are even considered privacy invasive.
+               In light of this, many studies have proposed better rate-limiting systems that protect user privacy, but they have their own shortcomings: (1) assume trust in the underlying hardware and (2) are vulnerable to side-channel attacks.
+               In this work, we propose Scrappy, a novel rate-limiting system that overcomes the aforementioned issues of prior work.
+               Scrappy utilizes the popular DAA cryptographic primitive and widely available hardware security devices.
+               We show that Scrappy can make use of different kinds of hardware security devices by implementing it on three different devices, one of which can be immediately deployable in the real world.
+               Our baseline evaluation shows that the end-to-end latency of Scrappy is 0.32 seconds and only transferrs minimal amount of data (679 bytes) during the protocol.
+               Most importantly, we show that the rate-limiting feature of Scrappy does not rely on the security of the hardware security device.},
+}
+
 @inproceedings{searles2023empirical,
   abbr      = {USENIX Security},
   author    = {Andrew Searles and
