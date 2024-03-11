@@ -67,6 +67,9 @@
     - title: "Scrappy: SeCure Rate Assuring Protocol with PrivacY"
       institution: Network and Distributed System Security Symposium (NDSS)
       year: Feb 2024
+    - title: "An Empirical Study & Evaluation of Modern CAPTCHAs"
+      institution: USENIX Security Symposium
+      year: Aug 2023
     - title: "VICEROY: GDPR-/CCPA-compliant Enforcement of Verifiable Accountless Consumer Requests"
       institution: Network and Distributed System Security Symposium (NDSS)
       year: Feb 2023
